@@ -31,13 +31,18 @@
         <h1 class="text-4xl font-bold text-base-content"> 关于我们 </h1>
         <div class="flex space-x-2">
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 累计维修 </h1>
-          <h1 class="text-3xl font-bold text-primary"> 2,345 </h1>
+          <h1 class="text-3xl font-bold text-primary w-20 text-center"> 2,345 </h1>
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 台设备 </h1>
         </div>
         <div class="flex space-x-2">
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 维修时长 </h1>
-          <h1 class="text-3xl font-bold text-primary"> 1,345 </h1>
+          <h1 class="text-3xl font-bold text-primary w-20 text-center"> 1,345 </h1>
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 天 </h1>
+        </div>
+        <div class="flex space-x-2">
+          <h1 class="text-2xl mt-auto font-bold text-base-content"> 目前在岗 </h1>
+          <h1 class="text-3xl font-bold text-primary w-20 text-center"> 47 </h1>
+          <h1 class="text-2xl mt-auto font-bold text-base-content"> 人 </h1>
         </div>
       </div>
     </div>

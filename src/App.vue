@@ -1,9 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 </script>
 
 <template>
+  <SpeedInsights />
   <div class="min-h-screen flex flex-col bg-base-100">
     <Header />
     <RouterView class="flex-grow" />

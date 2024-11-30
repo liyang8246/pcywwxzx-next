@@ -56,9 +56,6 @@ const hasChecked = ref({
 
 onMounted(() => {
     getVerifyCode();
-    setInterval(() => {
-        console.log(alertInfo.value);
-    }, 5000);
 });
 
 </script>

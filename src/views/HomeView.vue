@@ -1,5 +1,16 @@
 <script setup>
+import { ref } from "vue";
 
+const issueNum = ref(0);
+const dateNum = ref(0);
+import axios from 'axios';
+axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
+axios.get('/api/date_num').then(res => {
+  dateNum.value = res.data;
+})
+axios.get('/api/issue_num').then(res => {
+  issueNum.value = res.data;
+})
 </script>
 
 <template>
@@ -31,12 +42,12 @@
         <h1 class="text-4xl font-bold text-base-content"> 关于我们 </h1>
         <div class="flex space-x-2">
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 累计维修 </h1>
-          <h1 class="text-3xl font-bold text-primary w-20 text-center"> 2,345 </h1>
+          <h1 class="text-3xl font-bold text-primary w-20 text-center"> {{ issueNum }} </h1>
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 台设备 </h1>
         </div>
         <div class="flex space-x-2">
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 维修时长 </h1>
-          <h1 class="text-3xl font-bold text-primary w-20 text-center"> 1,345 </h1>
+          <h1 class="text-3xl font-bold text-primary w-20 text-center"> {{ dateNum }} </h1>
           <h1 class="text-2xl mt-auto font-bold text-base-content"> 天 </h1>
         </div>
         <div class="flex space-x-2">

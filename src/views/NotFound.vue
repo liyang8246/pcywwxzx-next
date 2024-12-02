@@ -12,8 +12,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="grid min-h-full place-content-center bg-white px-4">
-    <h1 class="uppercase tracking-widest text-gray-500">404 | Not Found</h1>
-    <h1 class="tracking-widest text-gray-500 text-sm mx-auto mt-2">Go home in 5 sec</h1>
+  <div class="grid min-h-full place-content-center px-4">
+    <h1 class="uppercase tracking-widest text-base-content">404 | Not Found</h1>
+    <h1 class="tracking-widest text-base-content text-sm mx-auto mt-2">Go home in 5 sec</h1>
   </div>
 </template>

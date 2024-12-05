@@ -42,7 +42,7 @@ axios.get('/api/issue_num').then((res) => {
           <h1 class="text-3xl font-bold text-primary w-20 text-center">
             {{ issueNum }}
           </h1>
-          <h1 class="text-2xl mt-auto font-bold text-base-content">台设备</h1>
+          <h1 class="text-2xl mt-auto font-bold text-base-content">次</h1>
         </div>
         <div class="flex space-x-2">
           <h1 class="text-2xl mt-auto font-bold text-base-content">维修时长</h1>

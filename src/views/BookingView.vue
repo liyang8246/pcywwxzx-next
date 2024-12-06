@@ -70,7 +70,7 @@ onMounted(() => {
       <div class="max-w-lg space-y-3 mx-4">
         <p class="font-semibold text-3xl">寻找我们提供帮助</p>
         <p class="text-base-content">
-          &ensp;&ensp;&ensp;&ensp;电脑义务维修中心于2015年9月创办以来,
+          &ensp;&ensp;&ensp;&ensp;电脑义务维修中心于2015年9月创办,
           是计算机学院学生党支部旗下的一支公益性特色服务团队, 以电脑维修工作为重点, 以丰富校园科技文化为己任.
           为切实弘扬志愿服务精神, 本中心无偿为全校师生提供电脑义务维修服务.
         </p>

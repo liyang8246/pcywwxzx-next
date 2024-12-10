@@ -100,7 +100,7 @@ onMounted(() => {
           <Input label="班级" altLabel="例: 22计算机教育B班" v-model="reswithverifycode.response.class" />
           <InputVerify
             label="验证码"
-            altLabel="不区分大小写"
+            altLabel="请输入全小写"
             v-model="reswithverifycode.verifycode"
             :verifyUrl="reswithverifycode.verifycode_url"
           />

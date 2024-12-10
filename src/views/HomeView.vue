@@ -56,6 +56,14 @@ axios.get('/api/issue_num').then((res) => {
           <h1 class="text-3xl font-bold text-primary w-20 text-center">47</h1>
           <h1 class="text-2xl mt-auto font-bold text-base-content">人</h1>
         </div>
+        <div class="flex items-center gap-x-2">
+          <span class="flex-none text-gray-400 scale-110 icon-[material-symbols--schedule-outline]" />
+          <p class="text-sm text-base-content">工作日 19:00 - 20:00</p>
+        </div>
+        <div class="flex items-center gap-x-2">
+          <span class="flex-none text-gray-400 scale-110 icon-[material-symbols--location-on-outline]" />
+          <p class="text-sm text-base-content">学生宿舍一栋三楼西南侧</p>
+        </div>
       </div>
     </div>
   </div>

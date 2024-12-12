@@ -57,6 +57,7 @@ const hasChecked = ref({
   userAgreement: false,
   triedMyself: false,
   describedInDetail: false,
+  comeEarly: false,
 });
 
 onMounted(() => {
@@ -147,9 +148,17 @@ onMounted(() => {
               />
               <div class="my-auto font-medium text-base-content text-sm">我已尽可能详细地描述问题</div>
             </label>
+            <label class="flex cursor-pointer items-center" v-show="hasChecked.describedInDetail">
+              <input
+                type="checkbox"
+                class="checkbox checkbox-primary checkbox-sm mr-2"
+                v-model="hasChecked.comeEarly"
+              />
+              <div class="my-auto font-medium text-base-content text-sm">我会尽量早来不让工作人员加班</div>
+            </label>
           </div>
-          <button v-show="!hasChecked.describedInDetail" class="btn text-sm btn-disabled">提交预约</button>
-          <button @click="submit()" v-show="hasChecked.describedInDetail" class="btn text-sm btn-primary">
+          <button v-show="!hasChecked.comeEarly" class="btn text-sm btn-disabled">提交预约</button>
+          <button @click="submit()" v-show="hasChecked.comeEarly" class="btn text-sm btn-primary">
             提交预约
           </button>
         </div>

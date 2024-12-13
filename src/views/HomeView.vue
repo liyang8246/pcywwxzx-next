@@ -26,7 +26,7 @@ axios.get('/api/issue_num').then((res) => {
           以丰富校园科技文化为己任. 为切实弘扬志愿服务精神, 本中心无偿为全校师生提供电脑义务维修服务.
         </p>
         <div class="flex flex-wrap">
-          <RouterLink to="/booking" class="btn btn-primary btn-soft mr-4 mb-4"> 预约维修 </RouterLink>
+          <RouterLink to="/booking" class="btn btn-primary btn-soft mr-4 mb-4 line-through"> 预约维修 </RouterLink>
           <div class="join">
             <a href="https://qm.qq.com/q/flBStssyFa" class="btn btn-soft join-item" target="_blank"> QQ咨询群 </a>
             <a href="https://doc.pcywwxzx.top" class="btn btn-soft join-item" target="_blank"> 维修文档 </a>

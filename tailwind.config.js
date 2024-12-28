@@ -8,4 +8,7 @@ export default {
     extend: {},
   },
   plugins: [addDynamicIconSelectors(), require('flyonui'), require('flyonui/plugin')],
+  flyonui: {
+    themes: ["corporate"]
+  }
 };
